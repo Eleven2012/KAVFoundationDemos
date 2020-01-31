@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15702" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15704"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="KAVAudioRecorderDemo_Swift" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFill" image="bg" translatesAutoresizingMaskIntoConstraints="NO" id="J0L-n4-fiM">
+                                <rect key="frame" x="20" y="60" width="374" height="667"/>
+                            </imageView>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" image="Overlay" translatesAutoresizingMaskIntoConstraints="NO" id="IEL-Vq-cZx">
+                                <rect key="frame" x="20" y="508" width="374" height="219"/>
+                            </imageView>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFill" image="penguin_01" translatesAutoresizingMaskIntoConstraints="NO" id="Eft-yS-j5E">
+                                <rect key="frame" x="78" y="135" width="258" height="359"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="00:00:00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GGa-fz-ahg">
+                                <rect key="frame" x="20" y="520" width="374" height="28"/>
+                                <fontDescription key="fontDescription" name="Menlo-Bold" family="Menlo" pointSize="24"/>
+                                <color key="textColor" red="0.098039215690000001" green="0.2901960784" blue="0.52156862749999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FN6-uB-bj0">
+                                <rect key="frame" x="104.5" y="598" width="205" height="93"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CwG-Hs-snR">
+                                        <rect key="frame" x="0.0" y="0.0" width="93" height="93"/>
+                                        <state key="normal" backgroundImage="button-record"/>
+                                        <state key="selected" backgroundImage="button-record1"/>
+                                        <state key="highlighted" backgroundImage="button-record1"/>
+                                        <connections>
+                                            <action selector="onRecord:" destination="BYZ-38-t0r" eventType="touchUpInside" id="QbK-bB-N1J"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="do2-4W-fU5">
+                                        <rect key="frame" x="120" y="0.0" width="85" height="93"/>
+                                        <state key="normal" backgroundImage="button-play"/>
+                                        <state key="highlighted" backgroundImage="button-play1"/>
+                                        <connections>
+                                            <action selector="onPlay:" destination="BYZ-38-t0r" eventType="touchUpInside" id="MmG-AS-21w"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="do2-4W-fU5" secondAttribute="bottom" id="3Ki-BK-qZZ"/>
+                                    <constraint firstItem="CwG-Hs-snR" firstAttribute="top" secondItem="do2-4W-fU5" secondAttribute="top" id="7gz-9i-aWS"/>
+                                    <constraint firstItem="CwG-Hs-snR" firstAttribute="leading" secondItem="FN6-uB-bj0" secondAttribute="leading" id="7pY-ZM-vmq"/>
+                                    <constraint firstAttribute="bottom" secondItem="CwG-Hs-snR" secondAttribute="bottom" id="Ejv-2r-vc3"/>
+                                    <constraint firstAttribute="bottom" secondItem="do2-4W-fU5" secondAttribute="bottom" id="Gee-5i-aGm"/>
+                                    <constraint firstItem="CwG-Hs-snR" firstAttribute="top" secondItem="FN6-uB-bj0" secondAttribute="top" id="Hmq-F9-zZl"/>
+                                    <constraint firstItem="do2-4W-fU5" firstAttribute="centerY" secondItem="FN6-uB-bj0" secondAttribute="centerY" id="JIJ-UL-dbX"/>
+                                    <constraint firstItem="CwG-Hs-snR" firstAttribute="leading" secondItem="FN6-uB-bj0" secondAttribute="leading" id="Lm8-5A-WvL"/>
+                                    <constraint firstItem="CwG-Hs-snR" firstAttribute="bottom" secondItem="do2-4W-fU5" secondAttribute="bottom" id="Mdi-p3-3yd"/>
+                                    <constraint firstItem="CwG-Hs-snR" firstAttribute="centerY" secondItem="FN6-uB-bj0" secondAttribute="centerY" id="RHg-yS-13i"/>
+                                    <constraint firstItem="CwG-Hs-snR" firstAttribute="leading" secondItem="FN6-uB-bj0" secondAttribute="leading" id="RgL-W5-Y6F"/>
+                                    <constraint firstItem="do2-4W-fU5" firstAttribute="top" secondItem="FN6-uB-bj0" secondAttribute="top" id="SS6-2p-eV7"/>
+                                    <constraint firstItem="CwG-Hs-snR" firstAttribute="top" secondItem="FN6-uB-bj0" secondAttribute="top" id="YSV-BQ-KkJ"/>
+                                    <constraint firstItem="do2-4W-fU5" firstAttribute="top" secondItem="FN6-uB-bj0" secondAttribute="top" id="cGJ-pd-LAI"/>
+                                    <constraint firstItem="do2-4W-fU5" firstAttribute="top" secondItem="FN6-uB-bj0" secondAttribute="top" id="dPF-J1-zAl"/>
+                                    <constraint firstItem="do2-4W-fU5" firstAttribute="leading" secondItem="CwG-Hs-snR" secondAttribute="trailing" constant="27" id="gQ4-Ia-ng2"/>
+                                    <constraint firstAttribute="trailing" secondItem="do2-4W-fU5" secondAttribute="trailing" id="jbe-oG-ehc"/>
+                                    <constraint firstItem="do2-4W-fU5" firstAttribute="top" secondItem="FN6-uB-bj0" secondAttribute="top" id="kri-C4-4X9"/>
+                                    <constraint firstItem="CwG-Hs-snR" firstAttribute="top" secondItem="FN6-uB-bj0" secondAttribute="top" id="n7U-mf-Vqx"/>
+                                    <constraint firstItem="CwG-Hs-snR" firstAttribute="firstBaseline" secondItem="do2-4W-fU5" secondAttribute="firstBaseline" id="nrR-S4-ABF"/>
+                                    <constraint firstItem="do2-4W-fU5" firstAttribute="leading" secondItem="FN6-uB-bj0" secondAttribute="leading" constant="120" id="qdy-bw-4jS"/>
+                                    <constraint firstAttribute="trailing" secondItem="do2-4W-fU5" secondAttribute="trailing" id="r2s-9j-mFF"/>
+                                    <constraint firstItem="do2-4W-fU5" firstAttribute="centerY" secondItem="CwG-Hs-snR" secondAttribute="centerY" id="rMS-aQ-Sb1"/>
+                                    <constraint firstItem="CwG-Hs-snR" firstAttribute="baseline" secondItem="do2-4W-fU5" secondAttribute="baseline" id="sDm-Oy-DiZ"/>
+                                    <constraint firstItem="CwG-Hs-snR" firstAttribute="leading" secondItem="FN6-uB-bj0" secondAttribute="leading" id="tGu-00-tXG"/>
+                                    <constraint firstAttribute="bottom" secondItem="CwG-Hs-snR" secondAttribute="bottom" id="uc8-PP-jGf"/>
+                                    <constraint firstItem="CwG-Hs-snR" firstAttribute="top" secondItem="FN6-uB-bj0" secondAttribute="top" id="uq3-kb-ToY"/>
+                                    <constraint firstAttribute="trailing" secondItem="do2-4W-fU5" secondAttribute="trailing" id="xem-Tb-JgN"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="IEL-Vq-cZx" firstAttribute="trailing" secondItem="GGa-fz-ahg" secondAttribute="trailing" id="7Gq-dh-N0X"/>
+                            <constraint firstItem="IEL-Vq-cZx" firstAttribute="centerX" secondItem="FN6-uB-bj0" secondAttribute="centerX" id="Ehs-GN-wcg"/>
+                            <constraint firstItem="IEL-Vq-cZx" firstAttribute="bottom" secondItem="J0L-n4-fiM" secondAttribute="bottom" id="Fc5-DB-ejH"/>
+                            <constraint firstItem="IEL-Vq-cZx" firstAttribute="top" secondItem="GGa-fz-ahg" secondAttribute="bottom" constant="-40" id="KsM-4d-0oO"/>
+                            <constraint firstItem="IEL-Vq-cZx" firstAttribute="leading" secondItem="J0L-n4-fiM" secondAttribute="leading" id="MLk-bT-n2v"/>
+                            <constraint firstItem="FN6-uB-bj0" firstAttribute="top" secondItem="GGa-fz-ahg" secondAttribute="bottom" constant="50" id="XFU-WL-9wK"/>
+                            <constraint firstItem="IEL-Vq-cZx" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="dwA-Pn-p6c"/>
+                            <constraint firstItem="IEL-Vq-cZx" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="edH-GU-TZ6"/>
+                            <constraint firstItem="IEL-Vq-cZx" firstAttribute="top" secondItem="Eft-yS-j5E" secondAttribute="bottom" constant="14" id="mU1-TM-FMg"/>
+                            <constraint firstItem="IEL-Vq-cZx" firstAttribute="leading" secondItem="GGa-fz-ahg" secondAttribute="leading" id="nxg-B1-0JS"/>
+                            <constraint firstItem="IEL-Vq-cZx" firstAttribute="trailing" secondItem="J0L-n4-fiM" secondAttribute="trailing" id="ph7-Ao-3Nz"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="IEL-Vq-cZx" secondAttribute="bottom" constant="135" id="vCW-l5-f1g"/>
+                            <constraint firstItem="IEL-Vq-cZx" firstAttribute="centerX" secondItem="Eft-yS-j5E" secondAttribute="centerX" id="vvg-CK-6yX"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="penguin" destination="Eft-yS-j5E" id="vxC-K8-OFl"/>
+                        <outlet property="playButton" destination="do2-4W-fU5" id="7Gc-Ow-jKU"/>
+                        <outlet property="recordButton" destination="CwG-Hs-snR" id="owd-fZ-jMx"/>
+                        <outlet property="timeLabel" destination="GGa-fz-ahg" id="8tH-Mz-k13"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="139" y="116"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Overlay" width="375" height="219"/>
+        <image name="bg" width="375" height="667"/>
+        <image name="button-play" width="85" height="93"/>
+        <image name="button-play1" width="85" height="93"/>
+        <image name="button-record" width="93" height="93"/>
+        <image name="button-record1" width="93" height="93"/>
+        <image name="penguin_01" width="258" height="359"/>
+    </resources>
+</document>

@@ -1,0 +1,595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		181E22E123E45EDF0020427D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181E22E023E45EDF0020427D /* AppDelegate.swift */; };
+		181E22E323E45EDF0020427D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181E22E223E45EDF0020427D /* SceneDelegate.swift */; };
+		181E22E523E45EDF0020427D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181E22E423E45EDF0020427D /* ViewController.swift */; };
+		181E22E823E45EDF0020427D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 181E22E623E45EDF0020427D /* Main.storyboard */; };
+		181E22EA23E45EE00020427D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 181E22E923E45EE00020427D /* Assets.xcassets */; };
+		181E22ED23E45EE00020427D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 181E22EB23E45EE00020427D /* LaunchScreen.storyboard */; };
+		181E22F823E45EE10020427D /* KAVAudioRecorderDemo_SwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181E22F723E45EE10020427D /* KAVAudioRecorderDemo_SwiftTests.swift */; };
+		181E230323E45EE10020427D /* KAVAudioRecorderDemo_SwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181E230223E45EE10020427D /* KAVAudioRecorderDemo_SwiftUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		181E22F423E45EE10020427D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 181E22D523E45EDF0020427D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 181E22DC23E45EDF0020427D;
+			remoteInfo = KAVAudioRecorderDemo_Swift;
+		};
+		181E22FF23E45EE10020427D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 181E22D523E45EDF0020427D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 181E22DC23E45EDF0020427D;
+			remoteInfo = KAVAudioRecorderDemo_Swift;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		181E22DD23E45EDF0020427D /* KAVAudioRecorderDemo_Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KAVAudioRecorderDemo_Swift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		181E22E023E45EDF0020427D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		181E22E223E45EDF0020427D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		181E22E423E45EDF0020427D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		181E22E723E45EDF0020427D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		181E22E923E45EE00020427D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		181E22EC23E45EE00020427D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		181E22EE23E45EE00020427D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		181E22F323E45EE10020427D /* KAVAudioRecorderDemo_SwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KAVAudioRecorderDemo_SwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		181E22F723E45EE10020427D /* KAVAudioRecorderDemo_SwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KAVAudioRecorderDemo_SwiftTests.swift; sourceTree = "<group>"; };
+		181E22F923E45EE10020427D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		181E22FE23E45EE10020427D /* KAVAudioRecorderDemo_SwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KAVAudioRecorderDemo_SwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		181E230223E45EE10020427D /* KAVAudioRecorderDemo_SwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KAVAudioRecorderDemo_SwiftUITests.swift; sourceTree = "<group>"; };
+		181E230423E45EE10020427D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		181E22DA23E45EDF0020427D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		181E22F023E45EE10020427D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		181E22FB23E45EE10020427D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		181E22D423E45EDF0020427D = {
+			isa = PBXGroup;
+			children = (
+				181E22DF23E45EDF0020427D /* KAVAudioRecorderDemo_Swift */,
+				181E22F623E45EE10020427D /* KAVAudioRecorderDemo_SwiftTests */,
+				181E230123E45EE10020427D /* KAVAudioRecorderDemo_SwiftUITests */,
+				181E22DE23E45EDF0020427D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		181E22DE23E45EDF0020427D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				181E22DD23E45EDF0020427D /* KAVAudioRecorderDemo_Swift.app */,
+				181E22F323E45EE10020427D /* KAVAudioRecorderDemo_SwiftTests.xctest */,
+				181E22FE23E45EE10020427D /* KAVAudioRecorderDemo_SwiftUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		181E22DF23E45EDF0020427D /* KAVAudioRecorderDemo_Swift */ = {
+			isa = PBXGroup;
+			children = (
+				181E22E023E45EDF0020427D /* AppDelegate.swift */,
+				181E22E223E45EDF0020427D /* SceneDelegate.swift */,
+				181E22E423E45EDF0020427D /* ViewController.swift */,
+				181E22E623E45EDF0020427D /* Main.storyboard */,
+				181E22E923E45EE00020427D /* Assets.xcassets */,
+				181E22EB23E45EE00020427D /* LaunchScreen.storyboard */,
+				181E22EE23E45EE00020427D /* Info.plist */,
+			);
+			path = KAVAudioRecorderDemo_Swift;
+			sourceTree = "<group>";
+		};
+		181E22F623E45EE10020427D /* KAVAudioRecorderDemo_SwiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				181E22F723E45EE10020427D /* KAVAudioRecorderDemo_SwiftTests.swift */,
+				181E22F923E45EE10020427D /* Info.plist */,
+			);
+			path = KAVAudioRecorderDemo_SwiftTests;
+			sourceTree = "<group>";
+		};
+		181E230123E45EE10020427D /* KAVAudioRecorderDemo_SwiftUITests */ = {
+			isa = PBXGroup;
+			children = (
+				181E230223E45EE10020427D /* KAVAudioRecorderDemo_SwiftUITests.swift */,
+				181E230423E45EE10020427D /* Info.plist */,
+			);
+			path = KAVAudioRecorderDemo_SwiftUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		181E22DC23E45EDF0020427D /* KAVAudioRecorderDemo_Swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 181E230723E45EE10020427D /* Build configuration list for PBXNativeTarget "KAVAudioRecorderDemo_Swift" */;
+			buildPhases = (
+				181E22D923E45EDF0020427D /* Sources */,
+				181E22DA23E45EDF0020427D /* Frameworks */,
+				181E22DB23E45EDF0020427D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KAVAudioRecorderDemo_Swift;
+			productName = KAVAudioRecorderDemo_Swift;
+			productReference = 181E22DD23E45EDF0020427D /* KAVAudioRecorderDemo_Swift.app */;
+			productType = "com.apple.product-type.application";
+		};
+		181E22F223E45EE10020427D /* KAVAudioRecorderDemo_SwiftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 181E230A23E45EE10020427D /* Build configuration list for PBXNativeTarget "KAVAudioRecorderDemo_SwiftTests" */;
+			buildPhases = (
+				181E22EF23E45EE10020427D /* Sources */,
+				181E22F023E45EE10020427D /* Frameworks */,
+				181E22F123E45EE10020427D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				181E22F523E45EE10020427D /* PBXTargetDependency */,
+			);
+			name = KAVAudioRecorderDemo_SwiftTests;
+			productName = KAVAudioRecorderDemo_SwiftTests;
+			productReference = 181E22F323E45EE10020427D /* KAVAudioRecorderDemo_SwiftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		181E22FD23E45EE10020427D /* KAVAudioRecorderDemo_SwiftUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 181E230D23E45EE10020427D /* Build configuration list for PBXNativeTarget "KAVAudioRecorderDemo_SwiftUITests" */;
+			buildPhases = (
+				181E22FA23E45EE10020427D /* Sources */,
+				181E22FB23E45EE10020427D /* Frameworks */,
+				181E22FC23E45EE10020427D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				181E230023E45EE10020427D /* PBXTargetDependency */,
+			);
+			name = KAVAudioRecorderDemo_SwiftUITests;
+			productName = KAVAudioRecorderDemo_SwiftUITests;
+			productReference = 181E22FE23E45EE10020427D /* KAVAudioRecorderDemo_SwiftUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		181E22D523E45EDF0020427D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = Apple;
+				TargetAttributes = {
+					181E22DC23E45EDF0020427D = {
+						CreatedOnToolsVersion = 11.3;
+					};
+					181E22F223E45EE10020427D = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = 181E22DC23E45EDF0020427D;
+					};
+					181E22FD23E45EE10020427D = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = 181E22DC23E45EDF0020427D;
+					};
+				};
+			};
+			buildConfigurationList = 181E22D823E45EDF0020427D /* Build configuration list for PBXProject "KAVAudioRecorderDemo_Swift" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 181E22D423E45EDF0020427D;
+			productRefGroup = 181E22DE23E45EDF0020427D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				181E22DC23E45EDF0020427D /* KAVAudioRecorderDemo_Swift */,
+				181E22F223E45EE10020427D /* KAVAudioRecorderDemo_SwiftTests */,
+				181E22FD23E45EE10020427D /* KAVAudioRecorderDemo_SwiftUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		181E22DB23E45EDF0020427D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				181E22ED23E45EE00020427D /* LaunchScreen.storyboard in Resources */,
+				181E22EA23E45EE00020427D /* Assets.xcassets in Resources */,
+				181E22E823E45EDF0020427D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		181E22F123E45EE10020427D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		181E22FC23E45EE10020427D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		181E22D923E45EDF0020427D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				181E22E523E45EDF0020427D /* ViewController.swift in Sources */,
+				181E22E123E45EDF0020427D /* AppDelegate.swift in Sources */,
+				181E22E323E45EDF0020427D /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		181E22EF23E45EE10020427D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				181E22F823E45EE10020427D /* KAVAudioRecorderDemo_SwiftTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		181E22FA23E45EE10020427D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				181E230323E45EE10020427D /* KAVAudioRecorderDemo_SwiftUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		181E22F523E45EE10020427D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 181E22DC23E45EDF0020427D /* KAVAudioRecorderDemo_Swift */;
+			targetProxy = 181E22F423E45EE10020427D /* PBXContainerItemProxy */;
+		};
+		181E230023E45EE10020427D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 181E22DC23E45EDF0020427D /* KAVAudioRecorderDemo_Swift */;
+			targetProxy = 181E22FF23E45EE10020427D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		181E22E623E45EDF0020427D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				181E22E723E45EDF0020427D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		181E22EB23E45EE00020427D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				181E22EC23E45EE00020427D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		181E230523E45EE10020427D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		181E230623E45EE10020427D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		181E230823E45EE10020427D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MC73ARS594;
+				INFOPLIST_FILE = KAVAudioRecorderDemo_Swift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kyl.KAVAudioRecorderDemo-Swift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		181E230923E45EE10020427D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MC73ARS594;
+				INFOPLIST_FILE = KAVAudioRecorderDemo_Swift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kyl.KAVAudioRecorderDemo-Swift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		181E230B23E45EE10020427D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MC73ARS594;
+				INFOPLIST_FILE = KAVAudioRecorderDemo_SwiftTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kyl.KAVAudioRecorderDemo-SwiftTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KAVAudioRecorderDemo_Swift.app/KAVAudioRecorderDemo_Swift";
+			};
+			name = Debug;
+		};
+		181E230C23E45EE10020427D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MC73ARS594;
+				INFOPLIST_FILE = KAVAudioRecorderDemo_SwiftTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kyl.KAVAudioRecorderDemo-SwiftTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KAVAudioRecorderDemo_Swift.app/KAVAudioRecorderDemo_Swift";
+			};
+			name = Release;
+		};
+		181E230E23E45EE10020427D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MC73ARS594;
+				INFOPLIST_FILE = KAVAudioRecorderDemo_SwiftUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kyl.KAVAudioRecorderDemo-SwiftUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KAVAudioRecorderDemo_Swift;
+			};
+			name = Debug;
+		};
+		181E230F23E45EE10020427D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MC73ARS594;
+				INFOPLIST_FILE = KAVAudioRecorderDemo_SwiftUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kyl.KAVAudioRecorderDemo-SwiftUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KAVAudioRecorderDemo_Swift;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		181E22D823E45EDF0020427D /* Build configuration list for PBXProject "KAVAudioRecorderDemo_Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				181E230523E45EE10020427D /* Debug */,
+				181E230623E45EE10020427D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		181E230723E45EE10020427D /* Build configuration list for PBXNativeTarget "KAVAudioRecorderDemo_Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				181E230823E45EE10020427D /* Debug */,
+				181E230923E45EE10020427D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		181E230A23E45EE10020427D /* Build configuration list for PBXNativeTarget "KAVAudioRecorderDemo_SwiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				181E230B23E45EE10020427D /* Debug */,
+				181E230C23E45EE10020427D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		181E230D23E45EE10020427D /* Build configuration list for PBXNativeTarget "KAVAudioRecorderDemo_SwiftUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				181E230E23E45EE10020427D /* Debug */,
+				181E230F23E45EE10020427D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 181E22D523E45EDF0020427D /* Project object */;
+}
