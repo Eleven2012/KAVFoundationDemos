@@ -1,0 +1,632 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		181E232923E472730020427D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 181E232823E472730020427D /* AppDelegate.m */; };
+		181E232C23E472730020427D /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 181E232B23E472730020427D /* SceneDelegate.m */; };
+		181E232F23E472730020427D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 181E232E23E472730020427D /* ViewController.m */; };
+		181E233223E472730020427D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 181E233023E472730020427D /* Main.storyboard */; };
+		181E233423E472740020427D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 181E233323E472740020427D /* Assets.xcassets */; };
+		181E233723E472740020427D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 181E233523E472740020427D /* LaunchScreen.storyboard */; };
+		181E233A23E472740020427D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 181E233923E472740020427D /* main.m */; };
+		181E234423E472740020427D /* KRecorderDemo_OCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 181E234323E472740020427D /* KRecorderDemo_OCTests.m */; };
+		181E234F23E472740020427D /* KRecorderDemo_OCUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 181E234E23E472740020427D /* KRecorderDemo_OCUITests.m */; };
+		181E236123E472F40020427D /* KAudioRecorder.m in Sources */ = {isa = PBXBuildFile; fileRef = 181E236023E472F40020427D /* KAudioRecorder.m */; };
+		181E236423E473080020427D /* KAudioPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 181E236323E473080020427D /* KAudioPlayer.m */; };
+		181E236723E4731E0020427D /* KAudioManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 181E236623E4731E0020427D /* KAudioManager.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		181E234023E472740020427D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 181E231C23E472730020427D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 181E232323E472730020427D;
+			remoteInfo = KRecorderDemo_OC;
+		};
+		181E234B23E472740020427D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 181E231C23E472730020427D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 181E232323E472730020427D;
+			remoteInfo = KRecorderDemo_OC;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		181E232423E472730020427D /* KRecorderDemo_OC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KRecorderDemo_OC.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		181E232723E472730020427D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		181E232823E472730020427D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		181E232A23E472730020427D /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		181E232B23E472730020427D /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		181E232D23E472730020427D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		181E232E23E472730020427D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		181E233123E472730020427D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		181E233323E472740020427D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		181E233623E472740020427D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		181E233823E472740020427D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		181E233923E472740020427D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		181E233F23E472740020427D /* KRecorderDemo_OCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KRecorderDemo_OCTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		181E234323E472740020427D /* KRecorderDemo_OCTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KRecorderDemo_OCTests.m; sourceTree = "<group>"; };
+		181E234523E472740020427D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		181E234A23E472740020427D /* KRecorderDemo_OCUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KRecorderDemo_OCUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		181E234E23E472740020427D /* KRecorderDemo_OCUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KRecorderDemo_OCUITests.m; sourceTree = "<group>"; };
+		181E235023E472740020427D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		181E235F23E472F40020427D /* KAudioRecorder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KAudioRecorder.h; sourceTree = "<group>"; };
+		181E236023E472F40020427D /* KAudioRecorder.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KAudioRecorder.m; sourceTree = "<group>"; };
+		181E236223E473080020427D /* KAudioPlayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KAudioPlayer.h; sourceTree = "<group>"; };
+		181E236323E473080020427D /* KAudioPlayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KAudioPlayer.m; sourceTree = "<group>"; };
+		181E236523E4731E0020427D /* KAudioManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KAudioManager.h; sourceTree = "<group>"; };
+		181E236623E4731E0020427D /* KAudioManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KAudioManager.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		181E232123E472730020427D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		181E233C23E472740020427D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		181E234723E472740020427D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		181E231B23E472730020427D = {
+			isa = PBXGroup;
+			children = (
+				181E232623E472730020427D /* KRecorderDemo_OC */,
+				181E234223E472740020427D /* KRecorderDemo_OCTests */,
+				181E234D23E472740020427D /* KRecorderDemo_OCUITests */,
+				181E232523E472730020427D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		181E232523E472730020427D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				181E232423E472730020427D /* KRecorderDemo_OC.app */,
+				181E233F23E472740020427D /* KRecorderDemo_OCTests.xctest */,
+				181E234A23E472740020427D /* KRecorderDemo_OCUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		181E232623E472730020427D /* KRecorderDemo_OC */ = {
+			isa = PBXGroup;
+			children = (
+				181E235C23E472B10020427D /* Tools */,
+				181E232723E472730020427D /* AppDelegate.h */,
+				181E232823E472730020427D /* AppDelegate.m */,
+				181E232A23E472730020427D /* SceneDelegate.h */,
+				181E232B23E472730020427D /* SceneDelegate.m */,
+				181E232D23E472730020427D /* ViewController.h */,
+				181E232E23E472730020427D /* ViewController.m */,
+				181E233023E472730020427D /* Main.storyboard */,
+				181E233323E472740020427D /* Assets.xcassets */,
+				181E233523E472740020427D /* LaunchScreen.storyboard */,
+				181E233823E472740020427D /* Info.plist */,
+				181E233923E472740020427D /* main.m */,
+			);
+			path = KRecorderDemo_OC;
+			sourceTree = "<group>";
+		};
+		181E234223E472740020427D /* KRecorderDemo_OCTests */ = {
+			isa = PBXGroup;
+			children = (
+				181E234323E472740020427D /* KRecorderDemo_OCTests.m */,
+				181E234523E472740020427D /* Info.plist */,
+			);
+			path = KRecorderDemo_OCTests;
+			sourceTree = "<group>";
+		};
+		181E234D23E472740020427D /* KRecorderDemo_OCUITests */ = {
+			isa = PBXGroup;
+			children = (
+				181E234E23E472740020427D /* KRecorderDemo_OCUITests.m */,
+				181E235023E472740020427D /* Info.plist */,
+			);
+			path = KRecorderDemo_OCUITests;
+			sourceTree = "<group>";
+		};
+		181E235C23E472B10020427D /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				181E235E23E472C60020427D /* AudioPlayer */,
+				181E235D23E472BA0020427D /* VoiceConvert */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		181E235D23E472BA0020427D /* VoiceConvert */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = VoiceConvert;
+			sourceTree = "<group>";
+		};
+		181E235E23E472C60020427D /* AudioPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				181E235F23E472F40020427D /* KAudioRecorder.h */,
+				181E236023E472F40020427D /* KAudioRecorder.m */,
+				181E236223E473080020427D /* KAudioPlayer.h */,
+				181E236323E473080020427D /* KAudioPlayer.m */,
+				181E236523E4731E0020427D /* KAudioManager.h */,
+				181E236623E4731E0020427D /* KAudioManager.m */,
+			);
+			path = AudioPlayer;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		181E232323E472730020427D /* KRecorderDemo_OC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 181E235323E472740020427D /* Build configuration list for PBXNativeTarget "KRecorderDemo_OC" */;
+			buildPhases = (
+				181E232023E472730020427D /* Sources */,
+				181E232123E472730020427D /* Frameworks */,
+				181E232223E472730020427D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KRecorderDemo_OC;
+			productName = KRecorderDemo_OC;
+			productReference = 181E232423E472730020427D /* KRecorderDemo_OC.app */;
+			productType = "com.apple.product-type.application";
+		};
+		181E233E23E472740020427D /* KRecorderDemo_OCTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 181E235623E472740020427D /* Build configuration list for PBXNativeTarget "KRecorderDemo_OCTests" */;
+			buildPhases = (
+				181E233B23E472740020427D /* Sources */,
+				181E233C23E472740020427D /* Frameworks */,
+				181E233D23E472740020427D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				181E234123E472740020427D /* PBXTargetDependency */,
+			);
+			name = KRecorderDemo_OCTests;
+			productName = KRecorderDemo_OCTests;
+			productReference = 181E233F23E472740020427D /* KRecorderDemo_OCTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		181E234923E472740020427D /* KRecorderDemo_OCUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 181E235923E472740020427D /* Build configuration list for PBXNativeTarget "KRecorderDemo_OCUITests" */;
+			buildPhases = (
+				181E234623E472740020427D /* Sources */,
+				181E234723E472740020427D /* Frameworks */,
+				181E234823E472740020427D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				181E234C23E472740020427D /* PBXTargetDependency */,
+			);
+			name = KRecorderDemo_OCUITests;
+			productName = KRecorderDemo_OCUITests;
+			productReference = 181E234A23E472740020427D /* KRecorderDemo_OCUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		181E231C23E472730020427D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = Apple;
+				TargetAttributes = {
+					181E232323E472730020427D = {
+						CreatedOnToolsVersion = 11.3;
+					};
+					181E233E23E472740020427D = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = 181E232323E472730020427D;
+					};
+					181E234923E472740020427D = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = 181E232323E472730020427D;
+					};
+				};
+			};
+			buildConfigurationList = 181E231F23E472730020427D /* Build configuration list for PBXProject "KRecorderDemo_OC" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 181E231B23E472730020427D;
+			productRefGroup = 181E232523E472730020427D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				181E232323E472730020427D /* KRecorderDemo_OC */,
+				181E233E23E472740020427D /* KRecorderDemo_OCTests */,
+				181E234923E472740020427D /* KRecorderDemo_OCUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		181E232223E472730020427D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				181E233723E472740020427D /* LaunchScreen.storyboard in Resources */,
+				181E233423E472740020427D /* Assets.xcassets in Resources */,
+				181E233223E472730020427D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		181E233D23E472740020427D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		181E234823E472740020427D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		181E232023E472730020427D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				181E236123E472F40020427D /* KAudioRecorder.m in Sources */,
+				181E232F23E472730020427D /* ViewController.m in Sources */,
+				181E236723E4731E0020427D /* KAudioManager.m in Sources */,
+				181E232923E472730020427D /* AppDelegate.m in Sources */,
+				181E233A23E472740020427D /* main.m in Sources */,
+				181E232C23E472730020427D /* SceneDelegate.m in Sources */,
+				181E236423E473080020427D /* KAudioPlayer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		181E233B23E472740020427D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				181E234423E472740020427D /* KRecorderDemo_OCTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		181E234623E472740020427D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				181E234F23E472740020427D /* KRecorderDemo_OCUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		181E234123E472740020427D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 181E232323E472730020427D /* KRecorderDemo_OC */;
+			targetProxy = 181E234023E472740020427D /* PBXContainerItemProxy */;
+		};
+		181E234C23E472740020427D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 181E232323E472730020427D /* KRecorderDemo_OC */;
+			targetProxy = 181E234B23E472740020427D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		181E233023E472730020427D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				181E233123E472730020427D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		181E233523E472740020427D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				181E233623E472740020427D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		181E235123E472740020427D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		181E235223E472740020427D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		181E235423E472740020427D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MC73ARS594;
+				INFOPLIST_FILE = KRecorderDemo_OC/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kyl.KRecorderDemo-OC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		181E235523E472740020427D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MC73ARS594;
+				INFOPLIST_FILE = KRecorderDemo_OC/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kyl.KRecorderDemo-OC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		181E235723E472740020427D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MC73ARS594;
+				INFOPLIST_FILE = KRecorderDemo_OCTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kyl.KRecorderDemo-OCTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KRecorderDemo_OC.app/KRecorderDemo_OC";
+			};
+			name = Debug;
+		};
+		181E235823E472740020427D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MC73ARS594;
+				INFOPLIST_FILE = KRecorderDemo_OCTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kyl.KRecorderDemo-OCTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KRecorderDemo_OC.app/KRecorderDemo_OC";
+			};
+			name = Release;
+		};
+		181E235A23E472740020427D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MC73ARS594;
+				INFOPLIST_FILE = KRecorderDemo_OCUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kyl.KRecorderDemo-OCUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KRecorderDemo_OC;
+			};
+			name = Debug;
+		};
+		181E235B23E472740020427D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MC73ARS594;
+				INFOPLIST_FILE = KRecorderDemo_OCUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kyl.KRecorderDemo-OCUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KRecorderDemo_OC;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		181E231F23E472730020427D /* Build configuration list for PBXProject "KRecorderDemo_OC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				181E235123E472740020427D /* Debug */,
+				181E235223E472740020427D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		181E235323E472740020427D /* Build configuration list for PBXNativeTarget "KRecorderDemo_OC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				181E235423E472740020427D /* Debug */,
+				181E235523E472740020427D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		181E235623E472740020427D /* Build configuration list for PBXNativeTarget "KRecorderDemo_OCTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				181E235723E472740020427D /* Debug */,
+				181E235823E472740020427D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		181E235923E472740020427D /* Build configuration list for PBXNativeTarget "KRecorderDemo_OCUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				181E235A23E472740020427D /* Debug */,
+				181E235B23E472740020427D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 181E231C23E472730020427D /* Project object */;
+}
