@@ -18,6 +18,11 @@
 		181E231223E462A50020427D /* KDefine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181E231123E462A50020427D /* KDefine.swift */; };
 		181E231423E463570020427D /* KAVSessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181E231323E463570020427D /* KAVSessionManager.swift */; };
 		181E231623E4671A0020427D /* KAudioRecordManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181E231523E4671A0020427D /* KAudioRecordManager.swift */; };
+		186FA6FF23E680550080F6FF /* UIColor+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186FA6FE23E680550080F6FF /* UIColor+extension.swift */; };
+		186FA70123E680840080F6FF /* KPlayButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186FA70023E680840080F6FF /* KPlayButton.swift */; };
+		186FA70323E680AC0080F6FF /* KIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186FA70223E680AC0080F6FF /* KIndicator.swift */; };
+		186FA70623E6810C0080F6FF /* KControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186FA70523E6810C0080F6FF /* KControl.swift */; };
+		186FA70823E681B20080F6FF /* KAudioPlayerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186FA70723E681B20080F6FF /* KAudioPlayerVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +60,11 @@
 		181E231123E462A50020427D /* KDefine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KDefine.swift; sourceTree = "<group>"; };
 		181E231323E463570020427D /* KAVSessionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KAVSessionManager.swift; sourceTree = "<group>"; };
 		181E231523E4671A0020427D /* KAudioRecordManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KAudioRecordManager.swift; sourceTree = "<group>"; };
+		186FA6FE23E680550080F6FF /* UIColor+extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+extension.swift"; sourceTree = "<group>"; };
+		186FA70023E680840080F6FF /* KPlayButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KPlayButton.swift; sourceTree = "<group>"; };
+		186FA70223E680AC0080F6FF /* KIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KIndicator.swift; sourceTree = "<group>"; };
+		186FA70523E6810C0080F6FF /* KControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KControl.swift; sourceTree = "<group>"; };
+		186FA70723E681B20080F6FF /* KAudioPlayerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KAudioPlayerVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +115,9 @@
 		181E22DF23E45EDF0020427D /* KAVAudioRecorderDemo_Swift */ = {
 			isa = PBXGroup;
 			children = (
+				186FA70423E680D90080F6FF /* Controller */,
+				186FA6FD23E680300080F6FF /* extension */,
+				186FA6FC23E680150080F6FF /* Views */,
 				181E231023E4616B0020427D /* AudioTools */,
 				181E22E023E45EDF0020427D /* AppDelegate.swift */,
 				181E22E223E45EDF0020427D /* SceneDelegate.swift */,
@@ -143,6 +156,32 @@
 				181E231523E4671A0020427D /* KAudioRecordManager.swift */,
 			);
 			path = AudioTools;
+			sourceTree = "<group>";
+		};
+		186FA6FC23E680150080F6FF /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				186FA70023E680840080F6FF /* KPlayButton.swift */,
+				186FA70223E680AC0080F6FF /* KIndicator.swift */,
+				186FA70523E6810C0080F6FF /* KControl.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		186FA6FD23E680300080F6FF /* extension */ = {
+			isa = PBXGroup;
+			children = (
+				186FA6FE23E680550080F6FF /* UIColor+extension.swift */,
+			);
+			path = extension;
+			sourceTree = "<group>";
+		};
+		186FA70423E680D90080F6FF /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				186FA70723E681B20080F6FF /* KAudioPlayerVC.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -276,10 +315,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				186FA70323E680AC0080F6FF /* KIndicator.swift in Sources */,
 				181E22E523E45EDF0020427D /* ViewController.swift in Sources */,
+				186FA70123E680840080F6FF /* KPlayButton.swift in Sources */,
+				186FA70823E681B20080F6FF /* KAudioPlayerVC.swift in Sources */,
 				181E22E123E45EDF0020427D /* AppDelegate.swift in Sources */,
 				181E231423E463570020427D /* KAVSessionManager.swift in Sources */,
+				186FA6FF23E680550080F6FF /* UIColor+extension.swift in Sources */,
 				181E231223E462A50020427D /* KDefine.swift in Sources */,
+				186FA70623E6810C0080F6FF /* KControl.swift in Sources */,
 				181E22E323E45EDF0020427D /* SceneDelegate.swift in Sources */,
 				181E231623E4671A0020427D /* KAudioRecordManager.swift in Sources */,
 			);
