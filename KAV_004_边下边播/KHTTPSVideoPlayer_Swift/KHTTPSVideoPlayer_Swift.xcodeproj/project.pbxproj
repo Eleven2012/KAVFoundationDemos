@@ -15,6 +15,9 @@
 		18814DF823F6897600F31818 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18814DF623F6897600F31818 /* LaunchScreen.storyboard */; };
 		18814E0323F6897600F31818 /* KHTTPSVideoPlayer_SwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18814E0223F6897600F31818 /* KHTTPSVideoPlayer_SwiftTests.swift */; };
 		18814E0E23F6897600F31818 /* KHTTPSVideoPlayer_SwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18814E0D23F6897600F31818 /* KHTTPSVideoPlayer_SwiftUITests.swift */; };
+		18814E1E23F68B1D00F31818 /* server.cer in Resources */ = {isa = PBXBuildFile; fileRef = 18814E1D23F68B1D00F31818 /* server.cer */; };
+		18814E2023F68B3600F31818 /* HTTPSManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18814E1F23F68B3600F31818 /* HTTPSManager.swift */; };
+		18814E2223F68CDA00F31818 /* KPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18814E2123F68CDA00F31818 /* KPlayer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		18814E0923F6897600F31818 /* KHTTPSVideoPlayer_SwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KHTTPSVideoPlayer_SwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		18814E0D23F6897600F31818 /* KHTTPSVideoPlayer_SwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KHTTPSVideoPlayer_SwiftUITests.swift; sourceTree = "<group>"; };
 		18814E0F23F6897600F31818 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18814E1D23F68B1D00F31818 /* server.cer */ = {isa = PBXFileReference; lastKnownFileType = file; path = server.cer; sourceTree = "<group>"; };
+		18814E1F23F68B3600F31818 /* HTTPSManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPSManager.swift; sourceTree = "<group>"; };
+		18814E2123F68CDA00F31818 /* KPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KPlayer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,11 +105,14 @@
 		18814DEA23F6897400F31818 /* KHTTPSVideoPlayer_Swift */ = {
 			isa = PBXGroup;
 			children = (
+				18814E1C23F68AE800F31818 /* Player */,
+				18814E1B23F68AD700F31818 /* Tools */,
 				18814DEB23F6897400F31818 /* AppDelegate.swift */,
 				18814DED23F6897400F31818 /* SceneDelegate.swift */,
 				18814DEF23F6897400F31818 /* ViewController.swift */,
 				18814DF123F6897400F31818 /* Main.storyboard */,
 				18814DF423F6897600F31818 /* Assets.xcassets */,
+				18814E1D23F68B1D00F31818 /* server.cer */,
 				18814DF623F6897600F31818 /* LaunchScreen.storyboard */,
 				18814DF923F6897600F31818 /* Info.plist */,
 			);
@@ -126,6 +135,30 @@
 				18814E0F23F6897600F31818 /* Info.plist */,
 			);
 			path = KHTTPSVideoPlayer_SwiftUITests;
+			sourceTree = "<group>";
+		};
+		18814E1B23F68AD700F31818 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				18814E1F23F68B3600F31818 /* HTTPSManager.swift */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		18814E1C23F68AE800F31818 /* Player */ = {
+			isa = PBXGroup;
+			children = (
+				18814E2323F68CEC00F31818 /* cache */,
+				18814E2123F68CDA00F31818 /* KPlayer.swift */,
+			);
+			path = Player;
+			sourceTree = "<group>";
+		};
+		18814E2323F68CEC00F31818 /* cache */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = cache;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,6 +266,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				18814DF823F6897600F31818 /* LaunchScreen.storyboard in Resources */,
+				18814E1E23F68B1D00F31818 /* server.cer in Resources */,
 				18814DF523F6897600F31818 /* Assets.xcassets in Resources */,
 				18814DF323F6897400F31818 /* Main.storyboard in Resources */,
 			);
@@ -262,6 +296,8 @@
 				18814DF023F6897400F31818 /* ViewController.swift in Sources */,
 				18814DEC23F6897400F31818 /* AppDelegate.swift in Sources */,
 				18814DEE23F6897400F31818 /* SceneDelegate.swift in Sources */,
+				18814E2023F68B3600F31818 /* HTTPSManager.swift in Sources */,
+				18814E2223F68CDA00F31818 /* KPlayer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
