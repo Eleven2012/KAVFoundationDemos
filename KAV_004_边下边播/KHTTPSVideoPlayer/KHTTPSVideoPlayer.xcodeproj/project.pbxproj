@@ -21,6 +21,7 @@
 		18814E3023F68F5E00F31818 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 18814E2F23F68F5E00F31818 /* MBProgressHUD.m */; };
 		18814E3323F68F9000F31818 /* KUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 18814E3223F68F9000F31818 /* KUtils.m */; };
 		18814E3623F6900200F31818 /* KHudManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 18814E3523F6900200F31818 /* KHudManager.m */; };
+		18814E3923F6920500F31818 /* KRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 18814E3823F6920500F31818 /* KRequest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,6 +71,8 @@
 		18814E3223F68F9000F31818 /* KUtils.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KUtils.m; sourceTree = "<group>"; };
 		18814E3423F6900200F31818 /* KHudManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KHudManager.h; sourceTree = "<group>"; };
 		18814E3523F6900200F31818 /* KHudManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KHudManager.m; sourceTree = "<group>"; };
+		18814E3723F6920500F31818 /* KRequest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KRequest.h; sourceTree = "<group>"; };
+		18814E3823F6920500F31818 /* KRequest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KRequest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -184,6 +187,8 @@
 			children = (
 				18814E2B23F68F2C00F31818 /* KDownTask.h */,
 				18814E2C23F68F2C00F31818 /* KDownTask.m */,
+				18814E3723F6920500F31818 /* KRequest.h */,
+				18814E3823F6920500F31818 /* KRequest.m */,
 			);
 			path = cache;
 			sourceTree = "<group>";
@@ -319,6 +324,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				18814DB223F688ED00F31818 /* ViewController.m in Sources */,
+				18814E3923F6920500F31818 /* KRequest.m in Sources */,
 				18814DAC23F688ED00F31818 /* AppDelegate.m in Sources */,
 				18814DBD23F688EE00F31818 /* main.m in Sources */,
 				18814DAF23F688ED00F31818 /* SceneDelegate.m in Sources */,
