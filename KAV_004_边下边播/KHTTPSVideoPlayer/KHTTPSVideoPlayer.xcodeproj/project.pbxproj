@@ -22,6 +22,7 @@
 		18814E3323F68F9000F31818 /* KUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 18814E3223F68F9000F31818 /* KUtils.m */; };
 		18814E3623F6900200F31818 /* KHudManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 18814E3523F6900200F31818 /* KHudManager.m */; };
 		18814E3923F6920500F31818 /* KRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 18814E3823F6920500F31818 /* KRequest.m */; };
+		18814E3F23F6A26F00F31818 /* KPlayerTestVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 18814E3E23F6A26F00F31818 /* KPlayerTestVC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,6 +74,8 @@
 		18814E3523F6900200F31818 /* KHudManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KHudManager.m; sourceTree = "<group>"; };
 		18814E3723F6920500F31818 /* KRequest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KRequest.h; sourceTree = "<group>"; };
 		18814E3823F6920500F31818 /* KRequest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KRequest.m; sourceTree = "<group>"; };
+		18814E3D23F6A26F00F31818 /* KPlayerTestVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KPlayerTestVC.h; sourceTree = "<group>"; };
+		18814E3E23F6A26F00F31818 /* KPlayerTestVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KPlayerTestVC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -137,6 +140,8 @@
 				18814DBB23F688EE00F31818 /* Info.plist */,
 				18814DBC23F688EE00F31818 /* main.m */,
 				18814E2523F68D8B00F31818 /* server.cer */,
+				18814E3D23F6A26F00F31818 /* KPlayerTestVC.h */,
+				18814E3E23F6A26F00F31818 /* KPlayerTestVC.m */,
 			);
 			path = KHTTPSVideoPlayer;
 			sourceTree = "<group>";
@@ -325,6 +330,7 @@
 			files = (
 				18814DB223F688ED00F31818 /* ViewController.m in Sources */,
 				18814E3923F6920500F31818 /* KRequest.m in Sources */,
+				18814E3F23F6A26F00F31818 /* KPlayerTestVC.m in Sources */,
 				18814DAC23F688ED00F31818 /* AppDelegate.m in Sources */,
 				18814DBD23F688EE00F31818 /* main.m in Sources */,
 				18814DAF23F688ED00F31818 /* SceneDelegate.m in Sources */,
