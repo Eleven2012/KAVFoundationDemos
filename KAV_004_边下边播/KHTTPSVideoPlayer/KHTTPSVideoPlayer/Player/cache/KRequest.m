@@ -51,15 +51,12 @@
         BOOL didRespondCompletely = [self respondWithDataForRequest:loadingRequest.dataRequest]; //判断此次请求的数据是否处理完全
         
         if (didRespondCompletely) {
-
             [requestsCompleted addObject:loadingRequest];  //如果完整，把此次请求放进 请求完成的数组
             [loadingRequest finishLoading];
-            
         }
     }
 
     [self.pendingRequests removeObjectsInArray:requestsCompleted];   //在所有请求的数组中移除已经完成的
-    
 }
 
 
@@ -89,17 +86,13 @@
     // Respond with whatever is available if we can't satisfy the request fully yet
     NSUInteger numberOfBytesToRespondWith = MIN((NSUInteger)dataRequest.requestedLength, unreadBytes);
     
-    
     [dataRequest respondWithData:[filedata subdataWithRange:NSMakeRange((NSUInteger)startOffset- self.task.offset, (NSUInteger)numberOfBytesToRespondWith)]];
-    
-    
     
     long long endOffset = startOffset + dataRequest.requestedLength;
     BOOL didRespondFully = (self.task.offset + self.task.downLoadingOffset) >= endOffset;
 
     return didRespondFully;
   
-    
 }
 
 
