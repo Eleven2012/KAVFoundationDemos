@@ -16,6 +16,11 @@
 		18814DBD23F688EE00F31818 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18814DBC23F688EE00F31818 /* main.m */; };
 		18814DC723F688EE00F31818 /* KHTTPSVideoPlayerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18814DC623F688EE00F31818 /* KHTTPSVideoPlayerTests.m */; };
 		18814DD223F688EF00F31818 /* KHTTPSVideoPlayerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18814DD123F688EF00F31818 /* KHTTPSVideoPlayerUITests.m */; };
+		18814E2A23F68EF100F31818 /* KPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 18814E2923F68EF100F31818 /* KPlayer.m */; };
+		18814E2D23F68F2C00F31818 /* KDownTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 18814E2C23F68F2C00F31818 /* KDownTask.m */; };
+		18814E3023F68F5E00F31818 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 18814E2F23F68F5E00F31818 /* MBProgressHUD.m */; };
+		18814E3323F68F9000F31818 /* KUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 18814E3223F68F9000F31818 /* KUtils.m */; };
+		18814E3623F6900200F31818 /* KHudManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 18814E3523F6900200F31818 /* KHudManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +59,17 @@
 		18814DCD23F688EE00F31818 /* KHTTPSVideoPlayerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KHTTPSVideoPlayerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		18814DD123F688EF00F31818 /* KHTTPSVideoPlayerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KHTTPSVideoPlayerUITests.m; sourceTree = "<group>"; };
 		18814DD323F688EF00F31818 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18814E2523F68D8B00F31818 /* server.cer */ = {isa = PBXFileReference; lastKnownFileType = file; path = server.cer; sourceTree = "<group>"; };
+		18814E2823F68EF100F31818 /* KPlayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KPlayer.h; sourceTree = "<group>"; };
+		18814E2923F68EF100F31818 /* KPlayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KPlayer.m; sourceTree = "<group>"; };
+		18814E2B23F68F2C00F31818 /* KDownTask.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KDownTask.h; sourceTree = "<group>"; };
+		18814E2C23F68F2C00F31818 /* KDownTask.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KDownTask.m; sourceTree = "<group>"; };
+		18814E2E23F68F5E00F31818 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		18814E2F23F68F5E00F31818 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		18814E3123F68F9000F31818 /* KUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KUtils.h; sourceTree = "<group>"; };
+		18814E3223F68F9000F31818 /* KUtils.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KUtils.m; sourceTree = "<group>"; };
+		18814E3423F6900200F31818 /* KHudManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KHudManager.h; sourceTree = "<group>"; };
+		18814E3523F6900200F31818 /* KHudManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KHudManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +120,8 @@
 		18814DA923F688ED00F31818 /* KHTTPSVideoPlayer */ = {
 			isa = PBXGroup;
 			children = (
+				18814E2623F68E2D00F31818 /* Tools */,
+				18814E2423F68D6900F31818 /* Player */,
 				18814DAA23F688ED00F31818 /* AppDelegate.h */,
 				18814DAB23F688ED00F31818 /* AppDelegate.m */,
 				18814DAD23F688ED00F31818 /* SceneDelegate.h */,
@@ -115,6 +133,7 @@
 				18814DB823F688EE00F31818 /* LaunchScreen.storyboard */,
 				18814DBB23F688EE00F31818 /* Info.plist */,
 				18814DBC23F688EE00F31818 /* main.m */,
+				18814E2523F68D8B00F31818 /* server.cer */,
 			);
 			path = KHTTPSVideoPlayer;
 			sourceTree = "<group>";
@@ -135,6 +154,38 @@
 				18814DD323F688EF00F31818 /* Info.plist */,
 			);
 			path = KHTTPSVideoPlayerUITests;
+			sourceTree = "<group>";
+		};
+		18814E2423F68D6900F31818 /* Player */ = {
+			isa = PBXGroup;
+			children = (
+				18814E2723F68E9500F31818 /* cache */,
+				18814E2823F68EF100F31818 /* KPlayer.h */,
+				18814E2923F68EF100F31818 /* KPlayer.m */,
+			);
+			path = Player;
+			sourceTree = "<group>";
+		};
+		18814E2623F68E2D00F31818 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				18814E2E23F68F5E00F31818 /* MBProgressHUD.h */,
+				18814E2F23F68F5E00F31818 /* MBProgressHUD.m */,
+				18814E3123F68F9000F31818 /* KUtils.h */,
+				18814E3223F68F9000F31818 /* KUtils.m */,
+				18814E3423F6900200F31818 /* KHudManager.h */,
+				18814E3523F6900200F31818 /* KHudManager.m */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		18814E2723F68E9500F31818 /* cache */ = {
+			isa = PBXGroup;
+			children = (
+				18814E2B23F68F2C00F31818 /* KDownTask.h */,
+				18814E2C23F68F2C00F31818 /* KDownTask.m */,
+			);
+			path = cache;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -271,6 +322,11 @@
 				18814DAC23F688ED00F31818 /* AppDelegate.m in Sources */,
 				18814DBD23F688EE00F31818 /* main.m in Sources */,
 				18814DAF23F688ED00F31818 /* SceneDelegate.m in Sources */,
+				18814E2D23F68F2C00F31818 /* KDownTask.m in Sources */,
+				18814E2A23F68EF100F31818 /* KPlayer.m in Sources */,
+				18814E3623F6900200F31818 /* KHudManager.m in Sources */,
+				18814E3023F68F5E00F31818 /* MBProgressHUD.m in Sources */,
+				18814E3323F68F9000F31818 /* KUtils.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
